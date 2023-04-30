@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Приклад сторінки з різними стильовими призначеннями</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			color: #333333;
+			background-color: #f5f5f5;
+		}
+		
+		h1 {
+			font-size: 32px;
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			border-bottom: 2px solid #cccccc;
+			padding-bottom: 10px;
+		}
+		
+		p {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			line-height: 1.5;
+			text-indent: 20px;
+		}
+		
+		.first-paragraph {
+			font-style: italic;
+			color: #666666;
+			background-image: url('bg-pattern.jpg');
+			background-repeat: repeat;
+			padding: 20px;
+			border: 1px solid #cccccc;
+		}
+		
+		.second-paragraph {
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		
+		ul {
+			margin-left: 30px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding-left: 20px;
+			list-style-type: disc;
+		}
+		
+		li {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Приклад сторінки з різними стильовими призначеннями</h1>
+	
+	<p class="first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet justo vel nisi scelerisque lacinia ut vitae sapien. Donec eu lectus a odio pulvinar tristique. Aliquam porta magna ac ipsum ornare, vel efficitur dolor varius. Sed rutrum mauris sit amet velit venenatis tristique.</p>
+	
+	<p class="second-paragraph">Nulla facilisi. Duis id lectus in libero gravida ultricies vel vel felis. Nulla facilisi. Phasellus congue lectus vel lectus accumsan aliquet. Sed quis velit vestibulum, rhoncus sapien a, iaculis lacus. Vestibulum venenatis lobortis nisi, ac cursus mauris fermentum in. Fusce euismod ligula quis nunc suscipit, eget laoreet nisi sodales. Proin vel sapien eu quam luctus efficitur vitae vel libero.</p>
+	
+	<ul>
+		<li>Quisque eget dolor et tortor lacinia iaculis in nec sapien.</li>
+		<li>Mauris commodo libero vel lectus facilisis bibendum.</li>
+		<li>Sed vitae felis a urna maximus malesuada ac eget leo.</li>
+		<li>Donec eu lectus a odio pulvinar tristique.</li>
+	</ul>
+	
+	<p>Nulla facilisi. Nam vel congue purus, sit amet vestibulum sapien. Integer nec ullamcorper tort us. Nunc vel sapien sit amet nisi malesuada ultricies. Proin in tortor tellus. Aliquam erat volutpat. Suspendisse vel urna velit. Nulla facilisi. Sed malesuada enim in mi molestie elementum. Sed ac enim nec nunc auctor efficitur at eu elit. Nam id nisi risus. Nam ultricies elit eu felis ullamcorper, vel consequat quam bibendum. Suspendisse potenti. Sed lobortis varius enim, sed convallis lectus fermentum non. Duis a mi non mauris posuere hendrerit.</p>
+
+</body>
+</html>

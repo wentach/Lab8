@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Приклад стилів тексту</title>
+    <style>
+      /* Стилі для заголовка */
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333333;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      /* Стилі для тексту */
+      p,
+      div {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #666666;
+        margin-bottom: 20px;
+      }
+
+      /* Стилі для контейнера div */
+      div {
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Приклад стилів тексту</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut gravida
+      dolor, ac dapibus eros. Nulla rutrum vehicula enim, a euismod elit
+      consectetur vel. Duis eget odio quis est euismod semper. Curabitur
+      vestibulum justo eget velit ultricies, vel efficitur ipsum pharetra. Sed
+      eleifend lectus augue, sit amet mattis felis dignissim nec. Aliquam
+      euismod odio id libero lacinia congue. Phasellus volutpat metus non
+      dolor pharetra, vel lacinia sapien ornare.
+    </p>
+
+    <div>
+      <p>
+        Donec dignissim molestie nisl, sed interdum sapien tincidunt id.
+        Integer nec dolor eu magna dapibus molestie. Sed non sapien non nulla
+        eleifend semper nec vitae enim. Integer nec felis ultricies, suscipit
+        dui vel, consequat tellus. Etiam lacinia nunc at interdum feugiat.
+        Curabitur sed nulla lacinia, pharetra mauris nec, pharetra quam.
+      </p>
+      <p>
+        Fusce mattis orci vel bibendum aliquet. Aliquam sollicitudin massa ut
+        venenatis faucibus. Praesent pharetra, dolor in aliquet auctor, lorem
+        tortor auctor nulla, vel vulputate mauris velit nec nunc. In tristique
+        sapien in elit bibendum, non eleifend metus laoreet. Suspendisse rutrum
+        nunc libero, a efficitur nisi tincidunt ut.
+      </p>
+    </div>
+
+    <p>
+      Pellentesque convallis, ante a lobortis malesuada, urna tellus posuere
+      velit, non rutrum elit elit non dui. Donec fringilla bibendum felis, vel
+      semper turpis. Integer sed fermentum dolor. Suspendisse sit amet ligula
+      id sapien vehicula fermentum. Vivamus malesuada in nisl eget sagittis.
+      Nullam mollis leo eu blandit tristique.  
+   </p>
+
+    <div>
+      <p>
+        Donec dignissim molestie nisl, sed interdum sapien tincidunt id.
+        Integer nec dolor eu magna dapibus molestie. Sed non sapien non nulla
+        eleifend semper nec vitae enim. Integer nec felis ultricies, suscipit
+        dui vel, consequat tellus. Etiam lacinia nunc at interdum feugiat.
+        Curabitur sed nulla lacinia, pharetra mauris nec, pharetra quam.
+      </p>
+      <p>
+        Fusce mattis orci vel bibendum aliquet. Aliquam sollicitudin massa ut
+        venenatis faucibus. Praesent pharetra, dolor in aliquet auctor, lorem
+        tortor auctor nulla, vel vulputate mauris velit nec nunc. In tristique
+        sapien in elit bibendum, non eleifend metus laoreet. Suspendisse rutrum
+        nunc libero, a efficitur nisi tincidunt ut.
+      </p>
+    </div>
+
+    <p>
+      Pellentesque convallis, ante a lobortis malesuada, urna tellus posuere
+      velit, non rutrum elit elit non dui. Donec fringilla bibendum felis, vel
+      semper turpis. Integer sed fermentum dolor. Suspendisse sit amet ligula
+      id sapien vehicula fermentum. Vivamus malesuada in nisl eget sagittis.
+      Nullam mollis leo eu blandit tristique. Mauris quis tellus vel massa
+      efficitur eleifend. Nam eget feugiat odio.
+    </p>
+  </body>
+</html>
